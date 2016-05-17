@@ -36,3 +36,14 @@
 
 
 ### utilisation
+
+usage : ./senseo.py [-h] | 1cup | 2cup | 4cup | status | pressPower | press1Cup | press2Cup
+      status     : interroge la Senseo et retourne son état courant
+      pressPower : appuie sur le bouton power
+      press1Cup  : appuie sur le bouton 1 tasse
+      press2Cup  : appuie sur le bouton 2 tasses
+      1cup       : Scenario qui lance le café 1 tasse
+      2cup       : Scenario qui lance le café 2 tasses
+      4cup       : Scenario qui lance le café 4 tasses (2 x 2tasses)
+            Note : Les scénarios allument la Senseo si celle ci est éteinte, et affichent un message d'erreur si le niveau d'eau est insuffisant
+
