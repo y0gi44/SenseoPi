@@ -48,3 +48,7 @@ usage : ./senseo.py [-h] | 1cup | 2cup | 4cup | status | pressPower | press1Cup 
             Note : Les scénarios allument la Senseo si celle ci est éteinte, et affichent un message d'erreur si le niveau d'eau est insuffisant
 
 
+### possibles Evolutions 
+- Utiliser un ESP8226 wifi pour se passer du rapsberry pi qui à côté d'une cafetière est assez encombrant
+
+
