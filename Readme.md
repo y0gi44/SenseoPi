@@ -47,8 +47,19 @@ usage : ./senseo.py [-h] | 1cup | 2cup | 4cup | status | pressPower | press1Cup 
       4cup       : Scenario qui lance le café 4 tasses (2 x 2tasses)
             Note : Les scénarios allument la Senseo si celle ci est éteinte, et affichent un message d'erreur si le niveau d'eau est insuffisant
 
+### webservice 
+	Le programe python webserver.py est un copié/collé simple d'un tuto d'internet, un peu customisé pour lancer le programme de senseo lors d'un appel à l'url http://<monIp>:8001/senseo/action/<action>
+	Les actions possibles sont 1cup.run, 2cup.run, 4cup.run, getStatus.
+	
+	Il se lance sans argument.
+	Les chemins sont en dur, certes c'est pas super sexy mais bon ça a le mérite de fonctionner.
+	
+	Pourquoi faire un "webservice" ?, la réponse est simple, j'utilise le systeme de domotique Domoticz.
+	J'ai créé des interrupteurs virtuels pour lancer les café 1 2 et 4 tasses cf capture_domoticz.png.
+	Chaque interrupteur sous domitcz peu faire un appel http ou lancer un script quand celui ci passe à "on" ou à "off" .
+	Et voilà.
+
 
 ### possibles Evolutions 
 - Utiliser un ESP8226 wifi pour se passer du rapsberry pi qui à côté d'une cafetière est assez encombrant
-
-
+- Ameliorer la sécurité du serveur Web python, (token, user/mdp ...  à voir)
