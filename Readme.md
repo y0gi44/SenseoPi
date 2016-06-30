@@ -1,3 +1,7 @@
+#Obligatory warnings and disclaimers: This will void your warranty. I will not be held responsible for any damage to devices, or for harm to yourself or others. Be respectful of electricity and it may not kill you.
+voila juste un petit disclaimers, ces informations sont mise à disposition à titre informatif, je ne suis pas responsable de tout problème que vous pourriez rencontrer, et en faisant le petit montage précisé dans la partie doc, vous perdez la garantie de votre senseo :-)  
+
+
 # Programme python Pour pilotage de la Senseo.
 
 ## Description.
