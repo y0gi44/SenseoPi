@@ -70,5 +70,5 @@ Et voilà.
 
 
 ### possibles Evolutions 
-- Utiliser un ESP8226 wifi pour se passer du rapsberry pi qui à côté d'une cafetière est assez encombrant
+- Utiliser un ESP8266 wifi pour se passer du rapsberry pi qui à côté d'une cafetière est assez encombrant
 - Ameliorer la sécurité du serveur Web python, (token, user/mdp ...  à voir)
